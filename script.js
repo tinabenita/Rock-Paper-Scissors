@@ -70,12 +70,17 @@ let choiceList = {
     paper: "fa-solid fa-hand", 
     scissor: "fa-solid fa-hand-peace"
 };
-const rockButton = document.querySelector("rock");
-const paperButton = document.querySelector("paper");
-const scissorsButton = document.querySelector("scissors");
+const rockButton = document.querySelector(".rock");
+const paperButton = document.querySelector(".paper");
+const scissorsButton = document.querySelector(".scissors");
 const buttons = document.querySelector("Button");
+const humanChoiceDiv = document.querySelector(".human-choice");
+const compChoiceDiv =  document.querySelector(".computer-choice");
+const humanChoiceIcon = document.querySelector("#human-icon");
+const compChoiceIcon = document.querySelector("#computer-icon")
 
-buttons.addEventListener("click", () => {
-    
+rockButton.addEventListener("click", () => {
+    humanChoiceIcon.classList = choiceList[rock];
 });
+
 
