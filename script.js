@@ -63,4 +63,19 @@ function gameRounds() {
     }
 }
 
-gameRounds();
+// gameRounds();
+
+let choiceList = {
+    rock: "fa-solid fa-hand-fist", 
+    paper: "fa-solid fa-hand", 
+    scissor: "fa-solid fa-hand-peace"
+};
+const rockButton = document.querySelector("rock");
+const paperButton = document.querySelector("paper");
+const scissorsButton = document.querySelector("scissors");
+const buttons = document.querySelector("Button");
+
+buttons.addEventListener("click", () => {
+    
+});
+
