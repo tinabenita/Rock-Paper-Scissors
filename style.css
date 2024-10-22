@@ -15,7 +15,7 @@ h1{
     width: 30%;
     border: 1px solid darkmagenta;
     padding: 20px;
-    margin-left: 320px;
+    margin-left: 415px;
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
@@ -31,7 +31,7 @@ h1{
     width: 30%;
     border: 1px solid blue;
     padding: 20px;
-    margin-left: 320px;
+    margin-left: 415px;
     margin-top: 30px;
     display: flex;
     align-items: center;
@@ -50,10 +50,10 @@ h1{
 .game-result{
     text-align: center;
     height: 50px;
-    width: 34%;
+    width: 423px;
     border: 1px solid black;
     margin-top: 30px;
-    margin-left: 320px;
+    margin-left: 415px;
     font-size: medium;
     font-weight: bold;
     padding-top: 30px;
